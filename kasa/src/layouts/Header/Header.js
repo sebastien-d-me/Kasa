@@ -8,8 +8,8 @@ function Header() {
     <header>
       <img src={logoHeader} alt="Logo"/>
       <nav>
-        <NavLink to="/" className="lien-menu" style={({ isActive }) => isActive ? {textDecoration: "underline"} : { textDecoration: "unset" }}>Accueil</NavLink>
-        <NavLink to="/a-propos" className="lien-menu" style={({ isActive }) => isActive ? {textDecoration: "underline"} : { textDecoration: "unset" }}>À propos</NavLink>
+        <NavLink to="/" className="lien-site" style={({ isActive }) => isActive ? {borderBottom: "1px solid #ff6060"} : { borderBottom: "unset" }}>Accueil</NavLink>
+        <NavLink to="/a-propos" className="lien-site" style={({ isActive }) => isActive ? {borderBottom: "1px solid #ff6060"} : { borderBottom: "unset" }}>À propos</NavLink>
       </nav>
     </header>
   );

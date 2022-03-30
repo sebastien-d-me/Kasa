@@ -1,0 +1,16 @@
+.titre-404 {
+  color: #ff6060;
+  font-size: 150px;
+  margin: auto;
+}
+
+.description-404 {
+  color: #ff6060;
+  display: block;
+  font-size: 20px;
+}
+
+.lien-site.lien-404 {
+  display: block;
+  margin-top: 150px;
+}

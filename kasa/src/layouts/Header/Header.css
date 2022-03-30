@@ -14,13 +14,13 @@ nav {
   width: 100%;
 }
 
-.lien-menu {
+.lien-site {
   color: #ff6060;
   margin: auto 25px;
   text-decoration: none;
 }
-.lien-menu:hover {
-  text-decoration: underline;
+.lien-site:hover {
+  color: #000000;
 }
 
 @media screen and (max-width: 992px) {
@@ -32,7 +32,7 @@ nav {
     height: 47px;
   }
 
-  .lien-menu {
+  .lien-site {
     margin: auto 5px;
   }
 }

@@ -8,7 +8,7 @@ import Layout from "../src/layouts/Layout";
 
 ReactDOM.render(
   <React.StrictMode>
-     <BrowserRouter>
+     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Layout>
         <App />
       </Layout>

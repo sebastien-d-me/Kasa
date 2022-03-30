@@ -8,11 +8,13 @@ import Layout from "../src/layouts/Layout";
 
 ReactDOM.render(
   <React.StrictMode>
-     <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Layout>
-        <App />
-      </Layout>
-    </BrowserRouter>
+    <div class="contenu">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Layout>
+          <App />
+        </Layout>
+      </BrowserRouter>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

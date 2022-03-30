@@ -1,0 +1,38 @@
+header {
+  align-items: center;
+  display: inline-flex;
+  margin: 40px 10%;
+  width: 80%;
+}
+header > img {
+  height: 68px;
+}
+
+nav {
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+}
+
+.lien-menu {
+  color: #ff6060;
+  margin: auto 25px;
+  text-decoration: none;
+}
+.lien-menu:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    margin: 40px 2.5%;
+    width: 95%;
+  }
+  header > img {
+    height: 47px;
+  }
+
+  .lien-menu {
+    margin: auto 5px;
+  }
+}

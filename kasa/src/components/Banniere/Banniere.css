@@ -1,0 +1,7 @@
+.banniere {
+  border-radius: 25px;
+  height: 225px;
+  margin-bottom: 35px;
+  object-fit: cover;
+  width: 100%;
+}

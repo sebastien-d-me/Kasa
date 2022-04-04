@@ -1,9 +1,9 @@
 import React from "react";
 import "./Tuile.css";
 
-function Tuile({image, titre}) {
+function Tuile({id, image, titre}) {
     return(
-        <div className="tuile">
+        <div className="tuile" id={id}>
             <img src={image}/>
             <span>{titre}</span>
         </div>

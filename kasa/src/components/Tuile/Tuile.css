@@ -1,16 +1,17 @@
 .tuile {
-    background: linear-gradient(180deg, #ff6060 85%, #000000a6 100%);
     border-radius: 10px;
     min-height: 320px;
     position: relative;
 }
 .tuile:hover {
+    background: linear-gradient(180deg, #ff6060 85%, #000000a6 100%);
     cursor: pointer;
 }
 
 .tuile > img {
     border-radius: 10px;
     height: 100%;
+    object-fit: cover;
     width: 100%;
 }
 .tuile:hover > img {
@@ -25,4 +26,10 @@
     margin-right: 20px;
     position: absolute;
     text-align: justify; 
+}
+
+@media screen and (max-width: 992px) {
+    .tuile {
+        min-height: 255px;
+    }
 }

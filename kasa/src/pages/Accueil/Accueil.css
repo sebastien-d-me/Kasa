@@ -1,0 +1,14 @@
+.liste-locations {
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 50px 60px; 
+    padding: 55px 50px;
+}
+
+@media screen  and (max-width: 992px) {
+    .liste-locations {
+        grid-template-columns: 1fr;
+    }
+}

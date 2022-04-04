@@ -3,7 +3,7 @@ import "./Banniere.css";
 
 function Banniere({image}) {
   return(
-    <img className="banniere" src={image}/>
+    <img className="banniere" src={image} alt="Bannière"/>
   );
 }
 

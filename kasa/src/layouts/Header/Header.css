@@ -4,6 +4,7 @@ header {
   margin: 40px 10%;
   width: 80%;
 }
+
 header > img {
   height: 68px;
 }
@@ -28,6 +29,7 @@ nav {
     margin: 40px 2.5%;
     width: 95%;
   }
+  
   header > img {
     height: 47px;
   }

@@ -1,6 +1,7 @@
 .tuile {
     border-radius: 10px;
-    min-height: 320px;
+    height: 100%;
+    min-height: 340px;
     position: relative;
 }
 .tuile:hover {
@@ -8,17 +9,27 @@
     cursor: pointer;
 }
 
-.tuile > img {
+.tuile-image {
     border-radius: 10px;
     height: 100%;
     object-fit: cover;
     width: 100%;
 }
-.tuile:hover > img {
+.tuile:hover > .tuile-image {
     opacity: 0.30;
 }
 
-.tuile > span {
+.tuile-sombre {
+    background: linear-gradient(180deg, #ffffff00 0%, #00000080 100%);
+    border-radius: 10px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.tuile-titre {
     bottom: 20px;
     color: #ffffff;
     font-size: 18px;

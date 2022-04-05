@@ -1,8 +1,4 @@
-.Accueil > .banniere {
-    height: 110px;
-}
-
-.liste-locations {
+.liste-logements {
     background-color: #f6f6f6;
     border-radius: 25px;
     display: grid; 
@@ -12,7 +8,12 @@
 }
 
 @media screen  and (max-width: 992px) {
-    .liste-locations {
+    .Accueil > .banniere {
+        height: 110px;
+        margin-bottom: 20px;
+    }
+
+    .liste-logements {
         background-color: unset;
         gap: 20px 0;
         grid-template-columns: 1fr;

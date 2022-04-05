@@ -1,0 +1,20 @@
+.titre-logement {
+    color: #ff6060;
+    font-size: 36px;
+}
+
+.endroit-logement {
+    color: #ff6060;
+    display: block;
+    font-size: 18px;
+}
+
+.description-equipements {
+    display: inline-flex;
+    gap: 0 75px;
+    width: 100%;
+}
+
+.description-equipements > .dropdown {
+    width: 50%;
+}

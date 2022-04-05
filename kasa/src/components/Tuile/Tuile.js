@@ -4,8 +4,9 @@ import "./Tuile.css";
 function Tuile({id, image, titre}) {
     return(
         <div className="tuile" id={id}>
-            <img src={image}/>
-            <span>{titre}</span>
+            <img className="tuile-image" src={image}/>
+            <div className="tuile-sombre"></div>
+            <span className="tuile-titre">{titre}</span>
         </div>
     );
 }

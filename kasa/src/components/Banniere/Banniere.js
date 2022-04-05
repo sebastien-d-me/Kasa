@@ -1,9 +1,13 @@
 import React from "react";
 import "./Banniere.css";
 
-function Banniere({image}) {
+function Banniere({image, texte}) {
   return(
-    <img className="banniere" src={image} alt="Bannière"/>
+    <div className="banniere">
+      <img className="banniere-img" src={image} alt="Bannière"/>
+      <div className="banniere-sombre"></div>
+      <span className="banniere-txt">{texte}</span>
+    </div>
   );
 }
 

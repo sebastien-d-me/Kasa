@@ -7,10 +7,10 @@ function Dropdown({titre, description}) {
   const [ouvert, setOuvert] = useState(false);
 
   return(
-    <div className="dropdown" id={`about-${titre}`}>
+    <div className="dropdown" id={`dropdown-${titre}`}>
       <div className="header-dropdown">
         <div className="titre-dropdown">{titre}</div>
-        <a className={`fleche-dropdown ${ouvert}`} href={`#about-${titre}`} onClick={() => setOuvert(!ouvert)}><img src={fleche} alt="Ouvrir cette liste"/></a>
+        <a className={`fleche-dropdown ${ouvert}`} href={`#dropdown-${titre}`} onClick={() => setOuvert(!ouvert)}><img src={fleche} alt="Ouvrir cette liste"/></a>
       </div>
       {
         /* Si le dropdown est à TRUE alors il affichera la description */

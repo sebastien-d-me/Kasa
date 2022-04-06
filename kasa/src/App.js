@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "../src/layouts/Layout";
 import Accueil from "./pages/Accueil/Accueil";
 import Fiche from './pages/Fiche-logement/Fiche';
@@ -9,7 +9,7 @@ import Erreur404 from "./pages/404/404";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Layout>
           <Routes>
             <Route path="/" element={<Accueil />} />
@@ -18,7 +18,7 @@ function App() {
             <Route path="*" element={<Erreur404 />} />
           </Routes>
         </Layout>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

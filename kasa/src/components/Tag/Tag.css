@@ -3,9 +3,12 @@
     border-radius: 10px;
     color: #ffffff;
     display: inline-block;
-    height: 25px;
-    line-height: 25px;
+    font-size: 14px;
     margin: auto 10px;
     min-width: 115px;
-    padding: 5px 15px;    
+    padding: 5px 15px;   
+    text-align: center; 
+}
+.tag:first-of-type {
+    margin-left: 0;
 }

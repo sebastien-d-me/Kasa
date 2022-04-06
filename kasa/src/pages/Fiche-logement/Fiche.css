@@ -1,20 +1,120 @@
-.titre-logement {
+.Fiche {
     color: #ff6060;
+}
+
+.logements-propietaire {
+    display: inline-flex;
+    width: 100%;
+}
+
+.logements-propietaire > div {
+    flex: 1 0 auto;
+}
+
+.information-logements {
+    flex-direction: column;
+}
+
+.titre-logement {
     font-size: 36px;
 }
 
 .endroit-logement {
-    color: #ff6060;
     display: block;
     font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.information-propietaire {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 25px;
+}
+
+.nom-proprietaire {
+    font-size: 18px;
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+
+.photo-propietaire {
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+.note {
+    display: flex;
+    justify-content: end;
+}
+
+.etoile {
+    height: 30px;
+    width: 30px;
 }
 
 .description-equipements {
     display: inline-flex;
     gap: 0 75px;
+    margin-top: 25px;
     width: 100%;
 }
 
 .description-equipements > .dropdown {
     width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .logements-propietaire {
+        display: block;
+    }
+
+    .titre-logement {
+        font-size: 18px;
+    }
+
+    .endroit-logement {
+        font-size: 14px;
+    }
+
+    .description-equipements {
+        display: block;
+    }
+
+    .tags {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 10px 0;
+    }
+
+    .tags > .tag {
+        margin-left: 0px;
+        min-width: 50px;
+    }
+
+    .proprietaire-note {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        margin-top: 25px;
+    }
+
+    .information-propietaire {
+        margin-bottom: unset;
+    }
+
+    .photo-propietaire {
+        height: 32px;
+        width: 32px;
+    }
+
+    .description-equipements > .dropdown {
+        width: 100%;
+    }
+    
+    .dropdown {
+        margin-bottom: 20px;
+    }
 }

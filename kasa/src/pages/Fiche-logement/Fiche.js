@@ -14,7 +14,7 @@ function Fiche() {
     const ficheLogement = ListeLogements.find(logement => logement.id === id.id);
 
     /* Tags */
-    const tagsLogement = ficheLogement.tags.map((tags, index) => {
+    const tagsLogement = ficheLogement?.tags.map((tags, index) => {
         return <Tag key={index} nom={tags} />
     });
 
@@ -22,18 +22,18 @@ function Fiche() {
     let noteLogement = [];
     let etoileComplete = true;
     for (let index = 0; index < 5; index++) {
-        if(index === parseInt(ficheLogement.rating)) {
+        if(index === parseInt(ficheLogement?.rating)) {
             etoileComplete = false;
         }
         if(etoileComplete === true) {
-            noteLogement.push(<img key={index} className="etoile" src={Etoile} alt={`${ficheLogement.rating}/5`}/>)
+            noteLogement.push(<img key={index} className="etoile" src={Etoile} alt={`${ficheLogement?.rating}/5`}/>)
         } else {
-            noteLogement.push(<img key={index} className="etoile" src={EtoileVide} alt={`${ficheLogement.rating}/5`}/>)
+            noteLogement.push(<img key={index} className="etoile" src={EtoileVide} alt={`${ficheLogement?.rating}/5`}/>)
         }
     }
 
     /* Équipements */
-    const equipementsLogement = ficheLogement.equipments.map((equipment, index) => {
+    const equipementsLogement = ficheLogement?.equipments.map((equipment, index) => {
         return <li key={index}>{equipment}</li>
     })
 
@@ -42,19 +42,19 @@ function Fiche() {
             {
                 ficheLogement ? (
                     <div className="Fiche">
-                        <Carrousel images={ficheLogement.pictures}/>
+                        <Carrousel images={ficheLogement?.pictures}/>
                         <div className="logements-propietaire">
                             <div className="information-logements">
-                                <span className="titre-logement">{ficheLogement.title}</span>
-                                <span className="endroit-logement">{ficheLogement.location}</span>
+                                <span className="titre-logement">{ficheLogement?.title}</span>
+                                <span className="endroit-logement">{ficheLogement?.location}</span>
                                 <div className="tags">
                                     {tagsLogement}
                                 </div>
                             </div>
                             <div className="proprietaire-note">
                                 <div className="information-propietaire">
-                                    <span className="nom-proprietaire">{ficheLogement.host.name}</span>
-                                    <img className="photo-propietaire" src={ficheLogement.host.picture} alt="Propriétaire"/>
+                                    <span className="nom-proprietaire">{ficheLogement?.host.name}</span>
+                                    <img className="photo-propietaire" src={ficheLogement?.host.picture} alt="Propriétaire"/>
                                 </div>
                                 <div className="note">
                                     {noteLogement}
@@ -62,7 +62,7 @@ function Fiche() {
                             </div>
                         </div>
                         <div className="description-equipements">
-                            <Dropdown titre="Description" description={ficheLogement.description}/>
+                            <Dropdown titre="Description" description={ficheLogement?.description}/>
                             <Dropdown titre="Équipements" description={equipementsLogement}/>
                         </div>
                     </div>
@@ -70,9 +70,6 @@ function Fiche() {
             }
         </>
     )
-    /*
-    <Carrousel images={ficheLogement.pictures}/>
-    */
 }
 
 export default Fiche;

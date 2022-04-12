@@ -24,7 +24,7 @@ nav {
   color: #000000;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1490px) {
   header {
     margin: 40px 2.5%;
     width: 95%;

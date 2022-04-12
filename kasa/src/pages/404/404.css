@@ -19,7 +19,7 @@
   margin-top: 150px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1490px) {
   .titre-404 {
     font-size: 96px;
   }

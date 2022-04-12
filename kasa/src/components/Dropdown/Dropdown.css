@@ -9,6 +9,8 @@
   background-color: #ff6060;
   border-radius: 5px;
   display: inline-flex;
+  height: 25%;
+  min-height: 50px;
   width: 100%;
 }
 
@@ -35,6 +37,7 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   color: #ff6060;
+  height: 75%;
   margin-top: -10px;
   min-height: 100px;
   padding: 25px 10px 10px 10px;

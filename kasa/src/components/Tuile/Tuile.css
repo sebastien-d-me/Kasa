@@ -36,10 +36,9 @@
     left: 20px;
     margin-right: 20px;
     position: absolute;
-    text-align: justify; 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1490px) {
     .tuile {
         min-height: 255px;
     }

@@ -23,5 +23,5 @@ Ce projet est le n°11 du parcours [Développeur d'application - JavaScript Reac
 - Créer des composants avec React
 
 ### Informations complémentaires
-- Soutenance à valider.
+- Soutenance validé le 19/04/2022.
 - Lien vers le site : [Cliquez-ici](https://sebastien-d-me.github.io/SebastienDelahaye_11_22032022/ "Cliquez-ici").

@@ -2,7 +2,7 @@
 ## Projet 11 - Kasa
 ------------
 ### Description du projet
-Ce projet est le n°11 du parcours [Développeur d'application - JavaScript React](https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react "Développeur d'application - JavaScript React") qui consiste à créer un site react avec des données à récupérer en JSON.
+Ce projet est le n°11 du parcours [**Développeur Front-End**](https://openclassrooms.com/fr/paths/314-developpeur-front-end "Développeur Front-End") qui consiste à créer un site react avec des données à récupérer en JSON.
 ### Cahiers des charges
 ##### Spécifications fonctionnelles
 1. Page d'accueil listant les différents logements

@@ -10,9 +10,9 @@ function Dropdown({titre, description}) {
         <div className="dropdown" id={`dropdown-${titre}`}>
             <div className="header-dropdown">
                 <div className="titre-dropdown">{titre}</div>
-                <a className={`fleche-dropdown ${ouvert}`} href={`#dropdown-${titre}`} onClick={() => setOuvert(!ouvert)}>
+                <span className={`fleche-dropdown ${ouvert}`} onClick={() => setOuvert(!ouvert)}>
                     <img src={fleche} alt="Ouvrir cette liste"/>
-                </a>
+                </span>
             </div>
             {
                 /* Si le dropdown est à TRUE alors il affichera la description */

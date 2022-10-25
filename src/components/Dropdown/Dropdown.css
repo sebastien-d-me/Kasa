@@ -27,6 +27,10 @@
   margin-right: 10px;
   width: 100%;
 }
+.fleche-dropdown:hover {
+    cursor: pointer;
+}
+
 .fleche-dropdown.true {
   justify-content: start;
   transform: rotate(-180deg);

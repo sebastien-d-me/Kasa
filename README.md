@@ -24,4 +24,4 @@ Ce projet est le n°11 du parcours [**Développeur Front-End**](https://openclas
 
 ### Informations complémentaires
 - Soutenance validé le 19/04/2022.
-- Lien vers le site : [Cliquez-ici](https://sebastien-d-me.github.io/SebastienDelahaye_11_22032022/ "Cliquez-ici").
+- Lien vers le site : [Cliquez-ici](https://sebastien-d-me.github.io/Kasa/ "Cliquez-ici").

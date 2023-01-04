@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/Kasa/static/css/main.9e4f50f4.css",
+    "main.css": "/Kasa/static/css/main.0f3a96dc.css",
     "main.js": "/Kasa/static/js/main.a17f395e.js",
     "static/js/787.0ce615c0.chunk.js": "/Kasa/static/js/787.0ce615c0.chunk.js",
     "static/media/Banniere.png": "/Kasa/static/media/Banniere.401fc5db2fea53843bf6.png",
+    "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/Kasa/static/media/Montserrat-Italic-VariableFont_wght.ef11b720b9a6cfb9a317.ttf",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/Kasa/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "index.html": "/Kasa/index.html",
     "static/media/Fleche.svg": "/Kasa/static/media/Fleche.4dfc3495cd10a7b5c2e22c0c09bd07c1.svg",
-    "main.9e4f50f4.css.map": "/Kasa/static/css/main.9e4f50f4.css.map",
+    "main.0f3a96dc.css.map": "/Kasa/static/css/main.0f3a96dc.css.map",
     "main.a17f395e.js.map": "/Kasa/static/js/main.a17f395e.js.map",
     "787.0ce615c0.chunk.js.map": "/Kasa/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e4f50f4.css",
+    "static/css/main.0f3a96dc.css",
     "static/js/main.a17f395e.js"
   ]
 }
